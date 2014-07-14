@@ -1,0 +1,36 @@
+{
+  "name": "REACTing-to-the-Modern-Web",
+  "version": "1.0.0",
+  "description": "Presentation materials for REACTing to the Modern Web",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mudetroit/REACTing-to-the-Modern-Web.git"
+  },
+  "author": "Matthew LaForest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudetroit/REACTing-to-the-Modern-Web/issues"
+  },
+  "homepage": "https://github.com/mudetroit/REACTing-to-the-Modern-Web",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "coffee-script": "^1.7.1",
+    "browserify": "^4.2.0",
+    "gulp-notify": "^1.4.0",
+    "vinyl-source-stream": "^0.1.1",
+    "gulp-less": "^1.3.1",
+    "gulp-changed": "^0.4.0",
+    "gulp-imagemin": "^0.6.1",
+    "gulp-livereload": "^2.1.0",
+    "gulp-open": "^0.2.8"
+  },
+  "dependencies": {
+    "envify": "^1.2.1",
+    "react": "^0.10.0",
+    "lodash": "^2.4.1",
+    "connect": "~2.14.3"
+  }
+}

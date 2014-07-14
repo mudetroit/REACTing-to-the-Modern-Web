@@ -5,6 +5,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/mudetroit/REACTing-to-the-Modern-Web.git"
@@ -25,7 +30,9 @@
     "gulp-changed": "^0.4.0",
     "gulp-imagemin": "^0.6.1",
     "gulp-livereload": "^2.1.0",
-    "gulp-open": "^0.2.8"
+    "gulp-open": "^0.2.8",
+    "reactify": "^0.13.1",
+    "gulp-sourcemaps": "^1.1.0"
   },
   "dependencies": {
     "envify": "^1.2.1",

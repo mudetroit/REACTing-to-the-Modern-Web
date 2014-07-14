@@ -8,7 +8,7 @@ gulp.task('watch', function() {
 		server.changed(file.path);
 	};
 
-	gulp.watch('src/js/**', ['cient']);
+	gulp.watch('src/js/**', ['client']);
 	gulp.watch('src/css/**', ['styles']);
 	gulp.watch('src/img/**', ['images']);
 	gulp.watch(['build/**']).on('change', reload);
